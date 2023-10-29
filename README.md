@@ -9,3 +9,9 @@ In this repo, you'll find projects of varying levels of complexity on Computer V
 This is the classical computer vision task, in which we recognize handwritten digits from the MNIST dataset.
 The solution is built using Keras (for the Feed-Forward NNs) and PyTorch (for the CNNs) <br/>
 <a href="https://github.com/leutrim-uka/Machine-Learning-Projects/blob/main/computer_vision/digit-recognizer-pytorch-keras.ipynb" target="_blank">Go to project on GitHub</a>
+
+<h3>Simple Autoencoder</h3>
+In this project, I implemented a simple autoencoder architecture using convolutional layers and trained it on the MNIST dataset. The encoder part of the network
+compresses the images by lowering the resolution layer by layer until it reaches the bottleneck. The decoder part then attempts to reconstruct the image back to 
+the original resolution, but it introduces some blurriness.
+<a href="https://github.com/leutrim-uka/Machine-Learning-Projects/blob/main/computer_vision/autoencoder.ipynb" target="_blank">Go to project on GitHub</a>
